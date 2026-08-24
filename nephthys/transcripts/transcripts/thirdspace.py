@@ -11,7 +11,7 @@ class ThirdSpace(Transcript):
     ticket_channel: str = ""  # third-space-tickets (set via SLACK_TICKET_CHANNEL env var)
     team_channel: str = ""  # third-space-bts (set via SLACK_BTS_CHANNEL env var)
 
-    faq_link: str = "https://hackclub.slack.com/docs/T0266FRGM/F093F8D7EE9"
+    faq_link: str = "https://hackclub.enterprise.slack.com/docs/T0266FRGM/F0BPXTULXT9"
 
     first_ticket_create: str = f"""
 hi (user)! welcome to third space! someone will be here soon to help answer your question. in the meantime, feel free to check out the <{faq_link}|faq> for common questions.
